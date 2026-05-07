@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', 'Poppins', ui-sans-serif, system-ui, sans-serif;
+  --color-primary-green: #009966;
+  --color-dark-green: #007a5a;
+  --color-mint-green: #dff5ec;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white text-gray-900;
+  }
+}
+
+.text-glow {
+  text-shadow: 0 0 20px rgba(0, 153, 102, 0.4);
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.mobile-sidebar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.mobile-sidebar::-webkit-scrollbar-thumb {
+  background: #10b981;
+  border-radius: 20px;
+}
