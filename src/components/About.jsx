@@ -36,7 +36,7 @@ const About = () => {
             {/* Glass decoration */}
             <div className="absolute -bottom-8 -right-8 w-48 h-48 bg-white/40 backdrop-blur-xl border border-white/40 rounded-3xl shadow-xl z-10 flex items-center justify-center p-6 text-center">
               <div>
-                <p className="text-4xl font-extrabold text-[#0a7c6e]">10+</p>
+                <p className="text-4xl font-extrabold text-[#0a7c6e]">20+</p>
                 <p className="text-sm font-semibold text-gray-700">Years of Experience</p>
               </div>
             </div>
