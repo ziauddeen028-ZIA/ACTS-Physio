@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import TrustBar from './components/TrustBar';
@@ -9,6 +9,7 @@ import Process from './components/Process';
 import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FirstPage from "./components/FirstPage";
 
 /**
  * @license
@@ -16,9 +17,17 @@ import Footer from './components/Footer';
  */
 
 export default function App() {
+  const [enterWebsite, setEnterWebsite] = useState(false);
+
+  if (!enterWebsite) {
+    return (
+      <FirstPage setEnterWebsite={setEnterWebsite} />
+    );
+  }
   return (
     <div className="min-h-screen bg-white font-sans text-gray-900 scroll-smooth">
-      <Navbar />
+      <Navbar setEnterWebsite={setEnterWebsite} />
+      
       <main>
         <Hero />
         <TrustBar />

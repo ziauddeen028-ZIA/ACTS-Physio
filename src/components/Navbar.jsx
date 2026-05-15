@@ -3,7 +3,7 @@ import { Menu, X, Phone, MessageSquare } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import logo from './logo-acts.png';
 
-const Navbar = () => {
+const Navbar = ({ setEnterWebsite }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -37,6 +37,7 @@ const Navbar = () => {
             <img
               src={logo}
               alt="ACTS PHYSIO"
+              onClick={() => setEnterWebsite(false)}
               className="w-10 h-10 lg:w-12 lg:h-12 object-contain"
             />
           </div>
@@ -104,6 +105,7 @@ const Navbar = () => {
                   <img
                     src={logo}
                     alt="logo"
+                    onClick={() => setEnterWebsite(false)}
                     className="w-10 h-10 object-contain"
                   />
 
@@ -135,7 +137,7 @@ const Navbar = () => {
               </div>
 
               {/* CTA */}
-              <div className="mt-auto p-5">
+              <div className="sticky bottom-0 bg-white p-5 border-t border-gray-100">
                 <a
                   href="tel:9444950298"
                   className="flex items-center justify-center gap-2 w-full bg-primary-green text-white py-3 rounded-xl font-semibold text-sm shadow-md"

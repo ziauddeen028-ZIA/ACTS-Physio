@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import doc from './doc.png';
 import acts from './acts.png';
+import FirstPage from "./FirstPage";
 import { Phone, Calendar, ArrowRight, Shield, Activity, Users, CheckCircle2 } from 'lucide-react';
 
 const Hero = () => {
@@ -19,7 +20,9 @@ const Hero = () => {
 
     return () => clearInterval(interval);
   }, []);
+  
   return (
+    
     <section
       id="home"
       className="relative min-h-screen flex items-center pt-24 pb-16 overflow-x-hidden"
@@ -61,8 +64,8 @@ const Hero = () => {
             </div>
 
             <h1 className="text-[42px] sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-[1.1] mb-8 tracking-tight">
-              Modern Physiotherapy <br />
-              <span className="text-primary-green italic font-medium">for Pain-Free Living</span>
+             ACTS Physiotherapy and Rehabilitation centre<br />
+              
             </h1>
 
             <p className="text-lg md:text-xl text-gray-500 mb-10 max-w-xl leading-relaxed">
