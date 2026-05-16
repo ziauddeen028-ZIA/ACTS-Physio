@@ -38,7 +38,7 @@ const Navbar = ({ setEnterWebsite }) => {
               src={logo}
               alt="ACTS PHYSIO"
               onClick={() => setEnterWebsite(false)}
-              className="w-10 h-10 lg:w-12 lg:h-12 object-contain"
+              className="w-10 h-10 sm:w-16 sm:h-16 lg:w-32 lg:h-16 object-contain"
             />
           </div>
 

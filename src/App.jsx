@@ -10,6 +10,8 @@ import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import FirstPage from "./components/FirstPage";
+import FAQ from "./components/FAQ";
+import Gallery from "./components/Gallery";
 
 /**
  * @license
@@ -36,7 +38,9 @@ export default function App() {
         <WhyChooseUs />
         <Process />
         <Testimonials />
+        <Gallery />
         <Contact />
+        <FAQ />
       </main>
       <Footer />
 

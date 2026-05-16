@@ -60,7 +60,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-mint-green/50 border border-primary-green/10 rounded-full text-dark-green font-semibold text-xs tracking-wider mb-8">
-              <Activity size={14} /> CERTIFIED REHABILITATION CENTRE
+              <Activity size={14} /> WE TREAT,GOD HEALS! 
             </div>
 
             <h1 className="text-[42px] sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-[1.1] mb-8 tracking-tight">
