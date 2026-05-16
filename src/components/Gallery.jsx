@@ -48,7 +48,7 @@ export default function Gallery() {
                 </div>
 
                 {/* Mobile View */}
-                <div className="grid grid-cols-2 gap-5 lg:hidden">
+                <div className="grid grid-cols-1 gap-5 lg:hidden">
                     {(showAll ? images : images.slice(0, 4)).map((img, index) => (
                         <div key={index} className="overflow-hidden rounded-3xl">
                             <img
