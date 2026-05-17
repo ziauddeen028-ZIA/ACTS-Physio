@@ -149,7 +149,7 @@ const Services = () => {
     },
     {
       title: "Electrotherapy Modalities",
-      desc: "Modern electrotherapy treatments for pain management and tissue healing.",
+      desc: "Modern electrotherapy treatments for pain management and tissue healing. We provide Interferential therapy  (IFT), Ultrasound therapy (UST), Transcutaneous Electrical Nerve Stimulation (TENS), Neuro muscular stimulation (NMS), Cervical  traction and Lumbar traction",
       tag: "Modalities",
       icon: <Zap size={32} />
     },
@@ -162,6 +162,12 @@ const Services = () => {
     {
       title: "Manual Therapy",
       desc: "Specialized hands-on physiotherapy techniques for pain reduction and mobility restoration.",
+      tag: "Therapy",
+      icon: <Hand size={32} />
+    },
+    {
+      title: "Heat therapy",
+      desc: "Wax therapy for joint stiffness and mobilisation.",
       tag: "Therapy",
       icon: <Hand size={32} />
     }
@@ -177,7 +183,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight uppercase">
-            Our Services
+            Conditions we treat
           </h2>
 
           <div className="w-20 h-1.5 bg-primary-green mx-auto rounded-full mb-6"></div>
